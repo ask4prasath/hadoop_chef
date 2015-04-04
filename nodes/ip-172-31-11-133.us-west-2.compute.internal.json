@@ -418,7 +418,7 @@
       "modules": {
         "ipv6": {
           "size": "353059",
-          "refcount": "58"
+          "refcount": "52"
         },
         "binfmt_misc": {
           "size": "7167",
@@ -635,7 +635,6 @@
           "state": "up",
           "arp": {
             "172.31.0.2": "0a:7e:ff:51:1d:21",
-            "169.254.169.254": "0a:7e:ff:51:1d:21",
             "172.31.0.1": "0a:7e:ff:51:1d:21"
           },
           "routes": [
@@ -672,15 +671,15 @@
         "interfaces": {
           "lo": {
             "rx": {
-              "bytes": "685581112",
-              "packets": "2099920",
+              "bytes": "686939131",
+              "packets": "2103764",
               "errors": "0",
               "drop": "0",
               "overrun": "0"
             },
             "tx": {
-              "bytes": "685581112",
-              "packets": "2099920",
+              "bytes": "686939131",
+              "packets": "2103764",
               "errors": "0",
               "drop": "0",
               "carrier": "0",
@@ -690,16 +689,16 @@
           "eth0": {
             "tx": {
               "queuelen": "1000",
-              "bytes": "1229571560",
-              "packets": "5606434",
+              "bytes": "1229831671",
+              "packets": "5608114",
               "errors": "0",
               "drop": "0",
               "carrier": "0",
               "collisions": "0"
             },
             "rx": {
-              "bytes": "13254876749",
-              "packets": "7564609",
+              "bytes": "13255020104",
+              "packets": "7566458",
               "errors": "0",
               "drop": "0",
               "overrun": "0"
@@ -874,37 +873,37 @@
         "free": "0kB"
       },
       "total": "4050676kB",
-      "free": "288460kB",
-      "buffers": "228452kB",
-      "cached": "2307688kB",
-      "active": "2181640kB",
-      "inactive": "1243936kB",
-      "dirty": "80kB",
-      "writeback": "0kB",
-      "anon_pages": "889572kB",
-      "mapped": "58548kB",
-      "slab": "295112kB",
+      "free": "315164kB",
+      "buffers": "228492kB",
+      "cached": "2307824kB",
+      "active": "2159820kB",
+      "inactive": "1240840kB",
+      "dirty": "112kB",
+      "writeback": "32kB",
+      "anon_pages": "864428kB",
+      "mapped": "49944kB",
+      "slab": "294780kB",
       "slab_reclaimable": "277020kB",
-      "slab_unreclaim": "18092kB",
-      "page_tables": "9316kB",
+      "slab_unreclaim": "17760kB",
+      "page_tables": "8304kB",
       "nfs_unstable": "0kB",
       "bounce": "0kB",
       "commit_limit": "2025336kB",
-      "committed_as": "1462900kB",
+      "committed_as": "1292344kB",
       "vmalloc_total": "34359738367kB",
-      "vmalloc_used": "7996kB",
-      "vmalloc_chunk": "34359722563kB"
+      "vmalloc_used": "7964kB",
+      "vmalloc_chunk": "34359722499kB"
     },
     "filesystem": {
       "/dev/xvda1": {
         "kb_size": "8123812",
-        "kb_used": "3862292",
-        "kb_available": "4161272",
+        "kb_used": "3862436",
+        "kb_available": "4161128",
         "percent_used": "49%",
         "mount": "/",
         "total_inodes": "524288",
-        "inodes_used": "141719",
-        "inodes_available": "382569",
+        "inodes_used": "141738",
+        "inodes_available": "382550",
         "inodes_percent_used": "28%",
         "fs_type": "ext4",
         "mount_options": [
@@ -1001,7 +1000,7 @@
       "system": "xen",
       "role": "guest"
     },
-    "ohai_time": 1428156148.4307282,
+    "ohai_time": 1428174751.9912062,
     "dmi": {
 
     },
@@ -1013,10 +1012,10 @@
         "host_ecdsa_type": "ecdsa-sha2-nistp256"
       }
     },
-    "uptime_seconds": 10535336,
-    "uptime": "121 days 22 hours 28 minutes 56 seconds",
-    "idletime_seconds": 21046824,
-    "idletime": "243 days 14 hours 20 minutes 24 seconds",
+    "uptime_seconds": 10553940,
+    "uptime": "122 days 03 hours 39 minutes 00 seconds",
+    "idletime_seconds": 21083990,
+    "idletime": "244 days 00 hours 39 minutes 50 seconds",
     "init_package": "init",
     "etc": {
       "passwd": {
